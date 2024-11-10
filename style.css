@@ -1,0 +1,109 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color:rgb(202, 206, 214) ;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(0, 0, 0, 1.5);
+    padding: 100px;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+}   
+
+fieldset{
+    border: 2px solid black ;
+    border-radius: 8px ;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(210, 210, 220);
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+    
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #252222;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+      
+}
+label{
+    display: block;
+    margin-top: 5px;
+    color: #000000;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+input,textarea{
+    width: calc(100% - 2px);
+    padding: 5px;
+    border:1px solid #252222 ;
+    border-bottom: #000000;
+    border-top: #000000;
+    border-left: #000000;
+    border-right: #000000;
+    box-sizing: content-box;
+    /* border: none */
+}
+button{
+    display: block;
+    width: 60px;
+    padding: 1px;
+    background-color: rgb(63, 68, 67);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #252222;
+    border-radius:8px ;
+    background-color:rgb(202, 206, 214) ;
+    box-shadow: 0 4px rgba(0, 0, 0, 1.5);
+   
+}
+#resumeOutput h2{
+    color: #252222;
+}
+
+
+.profilePicture {
+    width: 150px;   /* Width ko 80px set kiya gaya */
+    height: 150px;  /* Height ko 80px set kiya gaya */
+    border-radius: 50%;  /* Circular shape */
+    object-fit: cover;  /* Keep aspect ratio and cover the container */
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #252222;  /* Border color */
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);  /* Shadow effect */
+}
+
+
+
+#email{
+    box-shadow: 0 2px 4px rgba(11, 7, 211, 0.5);
+}

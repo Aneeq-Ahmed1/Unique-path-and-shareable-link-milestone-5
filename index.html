@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Milestone:5 Uniqe Path & Shareable Link</h1>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="username">Resume URL</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+        
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+            <label for="phone">Contact</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+
+
+<!-- Profile Picture -->
+            <label for="profilePicture">Profile Picture </label>
+            <input type="file" name="profilePicture" id="profilePicture" accept="image/*" required>
+            
+            
+
+
+
+
+
+        </fieldset>
+        <fieldset>
+        <legend>Education</legend>
+        <label for="education">Education</label>
+        <textarea id="education" name="education" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset>
+        <legend>Experience</legend>
+        <label for="Experiance">Experience</label>
+        <textarea id="experiance" name="experiance" rows="4" required></textarea> <br>
+        </fieldset>
+
+    <fieldset>
+    <legend>Skills</legend>
+    <label for="skills">Skills</label>
+    <textarea id="skills" name="skills" rows="4" required></textarea> <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Diploma Or Certificates</legend>
+        <label for="diplomaorcertificates">Diploma Or Certificates</label>
+        <textarea id="diplomaorcertificates" name="diplomaorcertificates" rows="4" required></textarea> <br>
+        </fieldset>
+  
+     <button type="submit">Genrate Resume</button>
+
+    </form>
+
+    <div id="resumeOutput">
+        <!-- Resume Genrated Proccess -->
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
